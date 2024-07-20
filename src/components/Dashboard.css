@@ -1,0 +1,32 @@
+.dashboard-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f5fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4e4e4e;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .filters-container {
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .filters-container .MuiGrid-item {
+      margin-bottom: 10px;
+    }
+  }
+  
